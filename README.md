@@ -4,4 +4,5 @@
 ## Members:
     - Yvon Manzi
     - Guraj Bhoday
+    - Ian Kariuki
     - [Add your name here]
