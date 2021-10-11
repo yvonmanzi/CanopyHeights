@@ -1,0 +1,13 @@
+div {
+    border: 1px orange solid;
+}
+
+#homepage {
+    display: grid;
+    grid-template-rows: 40% 10% 50%;
+    grid-template-columns: 1fr 4fr;
+}
+
+.fill-horizontal {
+    width: 100%;
+}
