@@ -3,7 +3,7 @@
 
 ## Members:
     - Yvon Manzi
-    - Guraj Bhoday
-    - Ian Kariuki
-    -Maxwell Kiana.
-    - [Add your name here]
+    - Guraj Bhoday-
+    - Ian Kariuki  
+    - Maxwell Kiana
+      - [Add your name here]
