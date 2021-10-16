@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Services</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #ff6200;
+        font-family: sans-serif;
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .container .box {
+        position: relative;
+        width: 350px;
+        padding: 40px;
+        background: #00a480;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+        border-radius: 4px;
+        margin: 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    
+    .container .box .icon {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        color: #fff;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 50%;
+        font-size: 40px;
+        font-weight: 700;
+        transition: 1s;
+    }
+    
+    .container .box:nth-child(1) .icon {
+        box-shadow: 0 0 0 #ff6200;
+        background: #ff6200;
+    }
+    
+    .container .box:nth-child(2) .icon {
+        box-shadow: 0 0 0 #ff6200;
+        background: #ff6200;
+    }
+    
+    .container .box:nth-child(3) .icon {
+        box-shadow: 0 0 0 #ff6200;
+        background: #ff6200;
+    }
+    
+    .container . box . content {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .container . box . content h3 {
+        font-size: 20px;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+    
+    .container . box . content p {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #ff6200;
+        border-radius: 4px;
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+        margin-top: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="icon">01</div>
+            <div class="content">
+                <h3>Team Building</h3>
+                <p>
+                    We will turn a team of individuals or employees into a cohesive team that will overcome any challenge given to them
+                </p>
+                <a href="#">Read More</a>
+            </div>
+
+        </div>
+        <div class="box">
+            <div class="icon">02</div>
+            <div class="content">
+                <h3>Entertainment</h3>
+                <p>
+                    We have a ton of activities for people to come and enjoy and have fun with your family or friends. Open from Monday to Sunday.
+                </p>
+                <a href="#">Read More</a>
+            </div>
+
+        </div>
+        <div class="box">
+            <div class="icon">03</div>
+            <div class="content">
+                <h3>Resort</h3>
+                <p>
+                    Come relax in the best environmental ambience where your peace will be our number one priority. Like it's said that the customer is always right.
+                </p>
+                <a href="#">Read More</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
