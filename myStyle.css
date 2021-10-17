@@ -1,0 +1,23 @@
+body
+{
+    background-color: #ff6200 ;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+div
+{
+    border: 5px ;
+    border-color: #00a480;
+    border-radius: 10px;
+    border-style: outset;
+    background-color: #00a480;
+    text-align: center;
+    font-style: bold;
+    float: both;
+    color:#000000;
+    font-size: 20px;
+}
+
